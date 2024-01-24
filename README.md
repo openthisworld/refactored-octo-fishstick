@@ -16,3 +16,8 @@ docker run -d -p 8080:80 --name nginx-container nginx-custom
 
 docker stop nginx-container
 docker rm nginx-container
+
+
+NEXT TASK:
+
+    створити СI/CD за допомогою GitHub Actions яка буде завантажувати docker image в docker hub
